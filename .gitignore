@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.exe
+
+# IDE specific
+.vscode/
+.idea/

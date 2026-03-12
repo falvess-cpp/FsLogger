@@ -12,21 +12,3 @@ A thread-safe, high-precision C++ logging and exception handling library.
 mkdir build && cd build
 cmake ..
 make
-
----
-
-### 3. Push to GitHub (WSL Commands)
-Since you are on **WSL Debian**, you will use the command line to push your code. Replace `your-username` with your actual GitHub handle:
-
-```bash
-cd ~/projects/FsLogger
-
-# Initialize and commit
-git init
-git add .
-git commit -m "Initial commit: Thread-safe FsLogger with temporal precision"
-
-# Create the repo on GitHub (do this in your browser first), then link it:
-git remote add origin https://github.com/your-username/FsLogger.git
-git branch -M main
-git push -u origin main
